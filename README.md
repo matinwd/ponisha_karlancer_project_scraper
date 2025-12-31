@@ -1,6 +1,6 @@
-# Ponisha Scraper (Go)
+# Ponisha + Karlancer Project Scraper (Go)
 
-Go implementation of the Ponisha + Karlancer scraper.
+implementation of the Ponisha + Karlancer scraper.
 
 ## Features
 - Parallel fan-out scrapers (goroutines) with per-provider error isolation
