@@ -4,7 +4,7 @@ implementation of the Ponisha + Karlancer scraper.
 
 ## Features
 - Parallel fan-out scrapers (goroutines) with per-provider error isolation
-- High-budget filtering (in providers) and DB deduplication via upsert
+- High-budget filtering (>= 99,000,000 tomans by default; configurable in code) and DB deduplication via upsert
 - Telegram alerts with queueing and rate limiting
 - Cron schedule every 7 minutes
 - Manual trigger endpoint: `GET /scraping`

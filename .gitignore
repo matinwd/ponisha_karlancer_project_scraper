@@ -1,0 +1,44 @@
+### Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+*.pprof
+*.cover
+coverage.*
+coverage/
+
+### Go workspace/cache
+bin/
+pkg/
+vendor/
+
+### Logs and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+tmp/
+temp/
+
+### Environment files (keep samples)
+.env
+.env.*
+!.env.example
+
+### OS / editor / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+### Docker
+.docker/
